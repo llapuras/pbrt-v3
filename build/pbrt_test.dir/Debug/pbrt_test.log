@@ -1,0 +1,35 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt
+  analytic_scenes.cpp
+  animatedtransform.cpp
+  bitops.cpp
+  bounds.cpp
+  bsdfs.cpp
+  fileutil.cpp
+  find_interval.cpp
+  fourierbsdf.cpp
+  fp_tests.cpp
+  gtest-all.cc
+  gtest_main.cc
+  hair.cpp
+D:\GameDev\pbrt-v3\build\src\ext\glog\glog/logging.h(714,1): warning C4018: “<”: 有符号/无符号不匹配
+  hg.cpp
+  imageio.cpp
+  parallel.cpp
+  parser.cpp
+  print.cpp
+  sampling.cpp
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message : 查看对正在编译的函数 模板 实例化“std::string *google::Check_LTImpl<unsigned __int64,__int64>(const T1 &,const T2 &,const char *)”的引用
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         with
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         [
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T1=unsigned __int64,
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T2=__int64
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         ]
+D:\GameDev\pbrt-v3\src\tests\sampling.cpp(154,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\GameDev\pbrt-v3\src\tests\sampling.cpp(177,79): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\GameDev\pbrt-v3\src\tests\sampling.cpp(181,72): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\GameDev\pbrt-v3\src\tests\sampling.cpp(185,76): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  shapes.cpp
+  spectrum.cpp
+  正在生成代码...
+D:\GameDev\pbrt-v3\src\tests\sampling.cpp(195,49): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  pbrt_test.vcxproj -> D:\GameDev\pbrt-v3\build\Debug\pbrt_test.exe

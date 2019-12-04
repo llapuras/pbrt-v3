@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77814A95-B8BD-32A2-BD66-FBDE77874910}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>IlmImf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IlmImf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IlmImf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4267;4244;4477;4996;4800;4334;4251;4305;4302;4311;4018</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="D:/GameDev/pbrt-v3/IlmImfTest/";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"D:/GameDev/pbrt-v3/IlmImfTest/\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4275;4267;4244;4477;4996;4800;4334;4251;4305;4302;4311;4018</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="D:/GameDev/pbrt-v3/IlmImfTest/";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"D:/GameDev/pbrt-v3/IlmImfTest/\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4275;4267;4244;4477;4996;4800;4334;4251;4305;4302;4311;4018</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="D:/GameDev/pbrt-v3/IlmImfTest/";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"D:/GameDev/pbrt-v3/IlmImfTest/\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4267;4244;4477;4996;4800;4334;4251;4305;4302;4311;4018</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="D:/GameDev/pbrt-v3/IlmImfTest/";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PBRT_HAVE_MEMORY_H;PBRT_HAVE_HEX_FP_CONSTANTS;PBRT_HAVE_BINARY_CONSTANTS;PBRT_HAVE_CONSTEXPR;PBRT_CONSTEXPR=constexpr;PBRT_HAVE_ALIGNAS;PBRT_HAVE_ALIGNOF;PBRT_HAVE_NONPOD_IN_UNIONS;PBRT_NOINLINE=__declspec(noinline);PBRT_HAVE__ALIGNED_MALLOC;PBRT_THREAD_LOCAL=thread_local;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"D:/GameDev/pbrt-v3/IlmImfTest/\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfUtil;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmaketiled;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrenvmap;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmakepreview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\exrmultiview;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImfFuzzTest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\build\CMakeFiles\2f9dc3ac8bb1b1a510a6ad8a948fc599\b44ExpLogTable.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Debug\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Release\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\MinSizeRel\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\RelWithDebInfo\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\build\CMakeFiles\2f9dc3ac8bb1b1a510a6ad8a948fc599\dwaLookups.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+$(Configuration)\dwaLookups &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Debug\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+$(Configuration)\dwaLookups &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Release\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+$(Configuration)\dwaLookups &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\MinSizeRel\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+$(Configuration)\dwaLookups &gt; D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\RelWithDebInfo\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp" />
+    <ClCompile Include="D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfBoxAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfCRgbaFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfChannelList.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfChannelListAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfFloatAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfFrameBuffer.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfHeader.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfIO.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfIntAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfLineOrderAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfMatrixAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfOpaqueAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRgbaFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfStringAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfVecAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfHuf.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfThreading.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfWav.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfLut.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfCompressor.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRleCompressor.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfZipCompressor.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfPizCompressor.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfMisc.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfCompressionAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDoubleAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfConvert.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfPreviewImage.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfPreviewImageAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfVersion.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfChromaticities.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfChromaticitiesAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfKeyCode.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfKeyCodeAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTimeCode.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTimeCodeAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRational.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRationalAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfFramesPerSecond.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfStandardAttributes.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfStdIO.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfEnvmap.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfEnvmapAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfScanLineInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledMisc.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledRgbaFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTileDescriptionAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTileOffsets.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRgbaYca.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfPxr24Compressor.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTestFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfStringVectorAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfMultiView.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfAcesFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfMultiPartOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfGenericOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfOutputPartData.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfMultiPartInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfGenericInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfPartType.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfInputPartData.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfOutputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledOutputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfInputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfTiledInputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepScanLineInputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepScanLineOutputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepScanLineInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepScanLineOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepTiledInputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepTiledOutputPart.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepTiledInputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepTiledOutputFile.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepFrameBuffer.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepCompositing.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfCompositeDeepScanLine.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfDeepImageStateAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfFastHuf.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfFloatVectorAttribute.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfRle.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfSystemSpecific.obj" />
+    <Object Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.dir\$(Configuration)\ImfZip.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\ZERO_CHECK.vcxproj">
+      <Project>{657E5F14-6A50-3DEC-B22D-A48AE3C59877}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{781AD466-D302-3888-8983-68778316AA6B}</Project>
+      <Name>Half</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{61C027AB-F7CC-363C-9C31-6E7A2BB6AA9E}</Project>
+      <Name>Iex</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.vcxproj">
+      <Project>{477462AE-80EF-3444-ADAD-D6430F01CD68}</Project>
+      <Name>IlmImf-obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{54465718-CAA2-3693-8A9E-EB3AB1426384}</Project>
+      <Name>IlmThread</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{F2C043D3-C92B-3C65-A84C-ED03A36FBA1D}</Project>
+      <Name>Imath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{8B466232-9929-36C9-8E8C-A42165EB2EEF}</Project>
+      <Name>b44ExpLogTable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{1B73DA8A-9D52-3A73-9D08-E4CD9520F2C5}</Project>
+      <Name>dwaLookups</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\zlib\zlibstatic.vcxproj">
+      <Project>{01BC3E39-EED9-3D31-AAEA-93FCE64EC023}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

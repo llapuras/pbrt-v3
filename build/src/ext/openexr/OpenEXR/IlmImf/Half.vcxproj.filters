@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half\half.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\build\CMakeFiles\79e23d2cc58afce94cc07a366d258f1e\eLut.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\build\CMakeFiles\79e23d2cc58afce94cc07a366d258f1e\toFloat.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A74B03D2-0C73-3F90-B7E6-A9C17BAA2F1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29BB809B-20C3-380F-BAD9-EC2EBBFC8C99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

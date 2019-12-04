@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/src/ext/ptex/src/ptex/CMakeLists.txt
+  PtexCache.cpp
+  PtexFilters.cpp
+  PtexHalf.cpp
+  PtexReader.cpp
+  PtexSeparableFilter.cpp
+  PtexSeparableKernel.cpp
+  PtexTriangleFilter.cpp
+  PtexTriangleKernel.cpp
+  PtexUtils.cpp
+  PtexWriter.cpp
+  正在生成代码...
+  Ptex_static.vcxproj -> D:\GameDev\pbrt-v3\build\src\ext\ptex\src\ptex\Debug\Ptex.lib

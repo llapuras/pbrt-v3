@@ -1,0 +1,159 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt
+  api.cpp
+D:\GameDev\pbrt-v3\build\src\ext\glog\glog/logging.h(714,1): warning C4018: “<”: 有符号/无符号不匹配
+  bssrdf.cpp
+  camera.cpp
+  efloat.cpp
+  error.cpp
+  fileutil.cpp
+  film.cpp
+  filter.cpp
+  floatfile.cpp
+  geometry.cpp
+  imageio.cpp
+  integrator.cpp
+  interaction.cpp
+  interpolation.cpp
+  light.cpp
+  lightdistrib.cpp
+  lowdiscrepancy.cpp
+  material.cpp
+  medium.cpp
+  memory.cpp
+  正在生成代码...
+  正在编译...
+  microfacet.cpp
+  parallel.cpp
+  paramset.cpp
+  parser.cpp
+  primitive.cpp
+  progressreporter.cpp
+  quaternion.cpp
+  reflection.cpp
+  sampler.cpp
+  sampling.cpp
+  scene.cpp
+  shape.cpp
+  sobolmatrices.cpp
+  spectrum.cpp
+  stats.cpp
+  texture.cpp
+  transform.cpp
+  bvh.cpp
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message : 查看对正在编译的函数 模板 实例化“std::string *google::Check_LTImpl<unsigned __int64,__int64>(const T1 &,const T2 &,const char *)”的引用
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         with
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         [
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T1=unsigned __int64,
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T2=__int64
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         ]
+D:\GameDev\pbrt-v3\build\src\ext\glog\glog/logging.h(713,1): warning C4018: “<=”: 有符号/无符号不匹配
+  kdtreeaccel.cpp
+  environment.cpp
+  正在生成代码...
+  正在编译...
+  orthographic.cpp
+  perspective.cpp
+  realistic.cpp
+  lodepng.cpp
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message : 查看对正在编译的函数 模板 实例化“std::string *google::Check_LEImpl<unsigned int,int>(const T1 &,const T2 &,const char *)”的引用
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message :         with
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message :         [
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message :             T1=unsigned int,
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message :             T2=int
+D:\GameDev\pbrt-v3\src\accelerators\bvh.cpp(108): message :         ]
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(798,34): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(1458,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(1462,31): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(1534,86): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(3478,46): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(3492,54): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(4326,75): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(4374,41): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(4454,59): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  rply.cpp
+  targa.cpp
+  box.cpp
+  gaussian.cpp
+  mitchell.cpp
+  sinc.cpp
+  ao.cpp
+  bdpt.cpp
+  directlighting.cpp
+  mlt.cpp
+  path.cpp
+  sppm.cpp
+  volpath.cpp
+  whitted.cpp
+  diffuse.cpp
+  distant.cpp
+  正在生成代码...
+  正在编译...
+  goniometric.cpp
+  infinite.cpp
+  point.cpp
+  projection.cpp
+  spot.cpp
+  disney.cpp
+  fourier.cpp
+  glass.cpp
+  hair.cpp
+D:\GameDev\pbrt-v3\src\ext\lodepng.cpp(5397,38): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\build\src\ext\glog\glog/logging.h(714,1): warning C4018: “<”: 有符号/无符号不匹配
+  kdsubsurface.cpp
+  matte.cpp
+  metal.cpp
+  mirror.cpp
+  mixmat.cpp
+  plastic.cpp
+  substrate.cpp
+  subsurface.cpp
+  translucent.cpp
+  uber.cpp
+  grid.cpp
+  正在生成代码...
+  正在编译...
+  homogeneous.cpp
+  halton.cpp
+  maxmin.cpp
+  random.cpp
+  sobol.cpp
+  stratified.cpp
+  zerotwosequence.cpp
+  cone.cpp
+  curve.cpp
+  cylinder.cpp
+  disk.cpp
+  heightfield.cpp
+  hyperboloid.cpp
+  loopsubdiv.cpp
+  nurbs.cpp
+  paraboloid.cpp
+  plymesh.cpp
+  sphere.cpp
+  bilerp.cpp
+  checkerboard.cpp
+  正在生成代码...
+  正在编译...
+  constant.cpp
+  dots.cpp
+  fbm.cpp
+  imagemap.cpp
+  marble.cpp
+  mix.cpp
+  ptex.cpp
+  scale.cpp
+  uv.cpp
+  windy.cpp
+  wrinkled.cpp
+  正在生成代码...
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message : 查看对正在编译的函数 模板 实例化“std::string *google::Check_LTImpl<unsigned __int64,__int64>(const T1 &,const T2 &,const char *)”的引用
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         with
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         [
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T1=unsigned __int64,
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :             T2=__int64
+D:\GameDev\pbrt-v3\src\materials/hair.h(168): message :         ]
+  ArHosekSkyModel.c
+D:\GameDev\pbrt-v3\src\ext\ArHosekSkyModel.c(529,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  triangle.cpp
+  triangle.cpp
+  pbrt.vcxproj -> D:\GameDev\pbrt-v3\build\Debug\libpbrt.lib

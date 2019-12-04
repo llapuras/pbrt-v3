@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7BE4451-5AB3-3935-8B50-13650A9A5BE6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\src\ext\ptex\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTest.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTest.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTest.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GameDev/pbrt-v3/src/ext/ptex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/ptex/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTest.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\src\ext\ptex\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\ZERO_CHECK.vcxproj">
+      <Project>{657E5F14-6A50-3DEC-B22D-A48AE3C59877}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\ptex\Ptex_static.vcxproj">
+      <Project>{777B168C-AF98-3A80-A6F1-819BA62FD564}</Project>
+      <Name>Ptex_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\ftest.vcxproj">
+      <Project>{A5F3EED8-21AC-3760-8CDB-6AF0076B1FEC}</Project>
+      <Name>ftest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\halftest.vcxproj">
+      <Project>{FB9A4522-5B7C-360A-9587-473794A3B9CD}</Project>
+      <Name>halftest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\utils\ptxinfo.vcxproj">
+      <Project>{482A2EA6-ED54-35D2-8AFB-ED09B2823223}</Project>
+      <Name>ptxinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\rtest.vcxproj">
+      <Project>{A9B3A07A-0652-3365-BCB3-E57838F42376}</Project>
+      <Name>rtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\wtest.vcxproj">
+      <Project>{D716022F-72B6-33DA-A3AE-5A0DE0677E80}</Project>
+      <Name>wtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

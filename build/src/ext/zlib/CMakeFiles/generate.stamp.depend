@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/GameDev/pbrt-v3/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+D:/GameDev/pbrt-v3/src/ext/zlib/CMakeLists.txt
+D:/GameDev/pbrt-v3/src/ext/zlib/zconf.h.cmakein
+D:/GameDev/pbrt-v3/src/ext/zlib/zlib.pc.cmakein
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckCSourceCompiles.cmake
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckFunctionExists.c
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckFunctionExists.cmake
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckIncludeFile.c.in
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckIncludeFileCXX.cmake
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckTypeSize.c.in
+D:/Workshop/CMAKE/share/cmake-3.15/Modules/CheckTypeSize.cmake

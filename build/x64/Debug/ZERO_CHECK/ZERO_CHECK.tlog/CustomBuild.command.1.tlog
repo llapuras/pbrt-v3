@@ -1,0 +1,10 @@
+^D:\GAMEDEV\PBRT-V3\BUILD\CMAKEFILES\4CF9FE025D67A850F86765B523195889\GENERATE.STAMP.RULE
+setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GameDev/pbrt-v3/build/PBRT-V3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

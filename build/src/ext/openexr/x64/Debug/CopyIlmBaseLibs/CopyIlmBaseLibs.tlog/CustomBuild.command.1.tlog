@@ -1,0 +1,26 @@
+^D:\GAMEDEV\PBRT-V3\BUILD\CMAKEFILES\C8DAFEA9E5928FCB0A100B9D740B3623\COPYILMBASELIBS.RULE
+setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -E copy_directory D:/GameDev/pbrt-v3/build/src/ext/openexr/IlmBase/Half/ D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+D:\Workshop\CMAKE\bin\cmake.exe -E copy_directory D:/GameDev/pbrt-v3/build/src/ext/openexr/IlmBase/IlmThread/ D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+D:\Workshop\CMAKE\bin\cmake.exe -E copy_directory D:/GameDev/pbrt-v3/build/src/ext/openexr/IlmBase/Iex/ D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+D:\Workshop\CMAKE\bin\cmake.exe -E copy_directory D:/GameDev/pbrt-v3/build/src/ext/openexr/IlmBase/Imath/ D:/GameDev/pbrt-v3/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GAMEDEV\PBRT-V3\SRC\EXT\OPENEXR\CMAKELISTS.TXT
+setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

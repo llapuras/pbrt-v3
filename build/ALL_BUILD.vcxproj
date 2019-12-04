@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7BE4451-5AB3-3935-8B50-13650A9A5BE6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;D:\GameDev\pbrt-v3\src;D:\GameDev\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;D:\GameDev\pbrt-v3\src;D:\GameDev\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;D:\GameDev\pbrt-v3\src;D:\GameDev\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\pbrt-v3\src\ext\zlib;D:\GameDev\pbrt-v3\build\src\ext\zlib;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Imath;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Half;D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\Iex;D:\GameDev\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\config;D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\config;D:\GameDev\pbrt-v3\src\ext\glog\src;D:\GameDev\pbrt-v3\build\src\ext\glog;D:\GameDev\pbrt-v3\src\ext\ptex\src\ptex;D:\GameDev\pbrt-v3\src;D:\GameDev\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_ALLOCA_H.c;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\GameDev\pbrt-v3\cmake\FindASan.cmake;D:\GameDev\pbrt-v3\cmake\FindMSan.cmake;D:\GameDev\pbrt-v3\cmake\FindSanitizers.cmake;D:\GameDev\pbrt-v3\cmake\FindTSan.cmake;D:\GameDev\pbrt-v3\cmake\FindUBSan.cmake;D:\GameDev\pbrt-v3\cmake\sanitize-helpers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceRuns.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_ALLOCA_H.c;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\GameDev\pbrt-v3\cmake\FindASan.cmake;D:\GameDev\pbrt-v3\cmake\FindMSan.cmake;D:\GameDev\pbrt-v3\cmake\FindSanitizers.cmake;D:\GameDev\pbrt-v3\cmake\FindTSan.cmake;D:\GameDev\pbrt-v3\cmake\FindUBSan.cmake;D:\GameDev\pbrt-v3\cmake\sanitize-helpers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceRuns.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_ALLOCA_H.c;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\GameDev\pbrt-v3\cmake\FindASan.cmake;D:\GameDev\pbrt-v3\cmake\FindMSan.cmake;D:\GameDev\pbrt-v3\cmake\FindSanitizers.cmake;D:\GameDev\pbrt-v3\cmake\FindTSan.cmake;D:\GameDev\pbrt-v3\cmake\FindUBSan.cmake;D:\GameDev\pbrt-v3\cmake\sanitize-helpers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceRuns.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GameDev/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_ALLOCA_H.c;D:\GameDev\pbrt-v3\build\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\GameDev\pbrt-v3\cmake\FindASan.cmake;D:\GameDev\pbrt-v3\cmake\FindMSan.cmake;D:\GameDev\pbrt-v3\cmake\FindSanitizers.cmake;D:\GameDev\pbrt-v3\cmake\FindTSan.cmake;D:\GameDev\pbrt-v3\cmake\FindUBSan.cmake;D:\GameDev\pbrt-v3\cmake\sanitize-helpers.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckCXXSourceRuns.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindThreads.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\FindZLIB.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Workshop\CMAKE\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\pbrt-v3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\ZERO_CHECK.vcxproj">
+      <Project>{657E5F14-6A50-3DEC-B22D-A48AE3C59877}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{781AD466-D302-3888-8983-68778316AA6B}</Project>
+      <Name>Half</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{61C027AB-F7CC-363C-9C31-6E7A2BB6AA9E}</Project>
+      <Name>Iex</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\IexMath\IexMath.vcxproj">
+      <Project>{D832FFAA-4776-3FDE-BECB-4A14F34D243A}</Project>
+      <Name>IexMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf.vcxproj">
+      <Project>{77814A95-B8BD-32A2-BD66-FBDE77874910}</Project>
+      <Name>IlmImf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.vcxproj">
+      <Project>{477462AE-80EF-3444-ADAD-D6430F01CD68}</Project>
+      <Name>IlmImf-obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{54465718-CAA2-3693-8A9E-EB3AB1426384}</Project>
+      <Name>IlmThread</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{F2C043D3-C92B-3C65-A84C-ED03A36FBA1D}</Project>
+      <Name>Imath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\ptex\Ptex_static.vcxproj">
+      <Project>{777B168C-AF98-3A80-A6F1-819BA62FD564}</Project>
+      <Name>Ptex_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{8B466232-9929-36C9-8E8C-A42165EB2EEF}</Project>
+      <Name>b44ExpLogTable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\bsdftest.vcxproj">
+      <Project>{3DEAA8CB-4029-33E2-B38D-28C2A86DB9A2}</Project>
+      <Name>bsdftest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\cyhair2pbrt.vcxproj">
+      <Project>{4F5A7436-34E3-3FB1-B7D0-49C378FF2AB1}</Project>
+      <Name>cyhair2pbrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\glog\demangle_unittest.vcxproj">
+      <Project>{BA90A193-BC7F-3A29-BF09-1AD2F9294EDA}</Project>
+      <Name>demangle_unittest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{1B73DA8A-9D52-3A73-9D08-E4CD9520F2C5}</Project>
+      <Name>dwaLookups</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Half\eLut.vcxproj">
+      <Project>{B2B74CE1-6A62-3C6D-8551-14045ED6C677}</Project>
+      <Name>eLut</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\ftest.vcxproj">
+      <Project>{A5F3EED8-21AC-3760-8CDB-6AF0076B1FEC}</Project>
+      <Name>ftest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\glog\glog.vcxproj">
+      <Project>{DA689F87-235B-3DB3-ABCA-EF1E30B1BE82}</Project>
+      <Name>glog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\halftest.vcxproj">
+      <Project>{FB9A4522-5B7C-360A-9587-473794A3B9CD}</Project>
+      <Name>halftest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\imgtool.vcxproj">
+      <Project>{5552E167-6C7B-322B-B21B-FCF588636187}</Project>
+      <Name>imgtool</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\glog\logging_unittest.vcxproj">
+      <Project>{1C20840E-0BAB-3FAE-8701-D5D6C2C4FD79}</Project>
+      <Name>logging_unittest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\obj2pbrt.vcxproj">
+      <Project>{FBEBA440-F088-321F-B1BB-9EAAA08CBB2E}</Project>
+      <Name>obj2pbrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\pbrt.vcxproj">
+      <Project>{372BF374-228C-345B-80A8-FF6B45A714AC}</Project>
+      <Name>pbrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\pbrt_exe.vcxproj">
+      <Project>{976F5371-689A-38BD-8C67-BFEE65BCADB6}</Project>
+      <Name>pbrt_exe</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\pbrt_test.vcxproj">
+      <Project>{E06CEC09-118D-3185-88BF-32C936F09602}</Project>
+      <Name>pbrt_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\utils\ptxinfo.vcxproj">
+      <Project>{482A2EA6-ED54-35D2-8AFB-ED09B2823223}</Project>
+      <Name>ptxinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\rtest.vcxproj">
+      <Project>{A9B3A07A-0652-3365-BCB3-E57838F42376}</Project>
+      <Name>rtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\glog\stl_logging_unittest.vcxproj">
+      <Project>{F93A78DF-EFAA-37D3-92DC-A8A4430EB2E0}</Project>
+      <Name>stl_logging_unittest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Half\toFloat.vcxproj">
+      <Project>{DF712258-812F-3948-AE25-3BC35154C674}</Project>
+      <Name>toFloat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\glog\utilities_unittest.vcxproj">
+      <Project>{285D0815-1AA5-315C-B692-324F7656020D}</Project>
+      <Name>utilities_unittest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\ptex\src\tests\wtest.vcxproj">
+      <Project>{D716022F-72B6-33DA-A3AE-5A0DE0677E80}</Project>
+      <Name>wtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\pbrt-v3\build\src\ext\zlib\zlibstatic.vcxproj">
+      <Project>{01BC3E39-EED9-3D31-AAEA-93FCE64EC023}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

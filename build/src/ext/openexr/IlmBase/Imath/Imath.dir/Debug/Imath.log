@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/IlmBase/Imath/CMakeLists.txt
+  ImathBox.cpp
+  ImathRandom.cpp
+  ImathColorAlgo.cpp
+  ImathShear.cpp
+  ImathFun.cpp
+  ImathVec.cpp
+  ImathMatrixAlgo.cpp
+  正在生成代码...
+  Imath.vcxproj -> D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\Imath\Debug\Imath.lib

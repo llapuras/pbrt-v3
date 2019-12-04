@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IexMath\IexMathFloatExc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IexMath\IexMathFpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\pbrt-v3\src\ext\openexr\IlmBase\IexMath\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29BB809B-20C3-380F-BAD9-EC2EBBFC8C99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

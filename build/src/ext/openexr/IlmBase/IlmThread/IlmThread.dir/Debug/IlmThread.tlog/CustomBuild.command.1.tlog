@@ -1,0 +1,10 @@
+^D:\GAMEDEV\PBRT-V3\SRC\EXT\OPENEXR\ILMBASE\ILMTHREAD\CMAKELISTS.TXT
+setlocal
+D:\Workshop\CMAKE\bin\cmake.exe -SD:/GameDev/pbrt-v3 -BD:/GameDev/pbrt-v3/build --check-stamp-file D:/GameDev/pbrt-v3/build/src/ext/openexr/IlmBase/IlmThread/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

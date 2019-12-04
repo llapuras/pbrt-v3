@@ -1,0 +1,32 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/src/ext/glog/CMakeLists.txt
+  demangle.cc
+  logging.cc
+D:\GameDev\pbrt-v3\src\ext\glog\src\demangle.cc(343,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(200,36): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(216,37): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(631,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(764,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(789,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(799,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1082,53): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1082,53): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1343,40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1343,40): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1416,56): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1416,56): warning C4267:         with
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1416,56): warning C4267:         [
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1416,56): warning C4267:             _Ty=int
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1416,56): warning C4267:         ]
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1438,8): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1516,70): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  raw_logging.cc
+D:\GameDev\pbrt-v3\src\ext\glog\src\logging.cc(1529,70): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  symbolize.cc
+  utilities.cc
+  vlog_is_on.cc
+D:\GameDev\pbrt-v3\src\ext\glog\src\raw_logging.cc(153,3): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\GameDev\pbrt-v3\src\ext\glog\src\vlog_is_on.cc(163,49): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+D:\GameDev\pbrt-v3\src\ext\glog\src\vlog_is_on.cc(163,49): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  port.cc
+  glog.vcxproj -> D:\GameDev\pbrt-v3\build\src\ext\glog\Debug\glog.lib

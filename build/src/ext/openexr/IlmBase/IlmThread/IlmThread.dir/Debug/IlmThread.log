@@ -1,0 +1,14 @@
+﻿  Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt
+  IlmThread.cpp
+  IlmThreadMutex.cpp
+  IlmThreadMutexPosix.cpp
+  IlmThreadPool.cpp
+  IlmThreadPosix.cpp
+  IlmThreadSemaphore.cpp
+  IlmThreadSemaphorePosixCompat.cpp
+  IlmThreadSemaphorePosix.cpp
+  IlmThreadMutexWin32.cpp
+  IlmThreadSemaphoreWin32.cpp
+  IlmThreadWin32.cpp
+  正在生成代码...
+  IlmThread.vcxproj -> D:\GameDev\pbrt-v3\build\src\ext\openexr\IlmBase\IlmThread\Debug\IlmThread.lib

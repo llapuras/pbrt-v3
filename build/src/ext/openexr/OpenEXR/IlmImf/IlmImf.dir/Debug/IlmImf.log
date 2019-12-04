@@ -1,0 +1,13 @@
+﻿  Generating b44ExpLogTable.h
+  Generating dwaLookups.h
+   Building acceleration for DwaCompressor, 0.00 %
+   Building acceleration for DwaCompressor, 18.31 %
+   Building acceleration for DwaCompressor, 36.62 %
+   Building acceleration for DwaCompressor, 54.93 %
+   Building acceleration for DwaCompressor, 73.25 %
+   Building acceleration for DwaCompressor, 91.56 %
+  Building Custom Rule D:/GameDev/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/CMakeLists.txt
+  ImfB44Compressor.cpp
+  ImfDwaCompressor.cpp
+  正在生成代码...
+  IlmImf.vcxproj -> D:\GameDev\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\Debug\IlmImf.lib
